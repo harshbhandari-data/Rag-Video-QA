@@ -1,5 +1,19 @@
+# Virtual Environment
 venv/
+
+# Python
 __pycache__/
 *.pyc
+
+# Environment Variables
 .env
+
+# VS Code
 .vscode/
+
+# Project Data
+data/videos/
+data/audios/
+data/transcripts/
+data/chunks/
+data/vector_store/
