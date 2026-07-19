@@ -2,7 +2,7 @@ import os
 import json
 
 input_folder="data/transcripts"
-output_folder="data/cleaned_taranscripts"
+output_folder="data/cleaned_transcripts"
 
 os.makedirs(output_folder,exist_ok=True)
 

@@ -15,7 +15,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 print("Loading Whisper model...")
 
 model = WhisperModel(
-    "medium",
+    "large-v3",              #medium has less accuracy but process vedio faster
     device="cuda",
     compute_type="float16"
 )
@@ -40,16 +40,18 @@ for audio_file in audio_files:
         continue
 
     print(f"Converting: {audio_file.name}")
+    
+    #for medium whisper model use commneted fields to get better result
 
     segments, info = model.transcribe(
         str(audio_file),
-        beam_size=10,
+        beam_size=5,  #10
         task="transcribe",
         language="hi",
-        best_of=5,
-        patience=2,
+        #best_of=5,
+        #patience=2,
         condition_on_previous_text=True,
-        vad_filter=False,
+        vad_filter=True,  #false
         initial_prompt=
                         """
                         This is a machine learning lecture in Hindi and English.

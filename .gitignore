@@ -12,8 +12,10 @@ __pycache__/
 .vscode/
 
 # Project Data
-data/videos/
-data/audios/
-data/transcripts/
-data/chunks/
-data/vector_store/
+# data/videos/
+# data/audios/
+# data/transcripts/
+# data/chunks/
+# data/vector_store/
+# data/cleaned_transcipts/
+data/
