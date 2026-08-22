@@ -72,7 +72,12 @@ for file in files:
         chunks=json.load(f)
 
     texts=[chunk["text"] for chunk in chunks]
-    embeddings=model.encode(texts,batch_size=16,max_length=512)["dense_vecs"].astype(np.float32)
+    embeddings=model.encode(
+        texts,
+        batch_size=16,
+        max_length=512
+        )["dense_vecs"].astype(np.float32)
+    
     new_embeddings.append(embeddings)
     new_metadata.extend(chunks)
     print(f"Processing completed for: {lecture_name}")
