@@ -19,3 +19,45 @@ __pycache__/
 # data/vector_store/
 # data/cleaned_transcipts/
 data/
+# Local virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated project data
+# These files can be large and can be rebuilt with the scripts in src/.
+data/
+
+# Model and tool caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.huggingface/
+
+# Logs and local runtime files
+*.log
+*.tmp
+*.temp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local editor settings
+.vscode/
