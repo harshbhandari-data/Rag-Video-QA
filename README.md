@@ -182,6 +182,3 @@ This project is useful for learning:
 
 Created by [Harsh Bhandari](https://github.com/harshbhandari-data).
 
-## 📄 License
-
-No license has been added yet. Add a license before publishing if you want others to reuse the code legally. MIT is a common choice for learning projects.
