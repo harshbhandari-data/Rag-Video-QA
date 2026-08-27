@@ -39,7 +39,7 @@ model=BGEM3FlagModel(
     use_fp16=torch.cuda.is_available(),
     devices=device,
 )
-
+ 
 query= input("\n Enter your question : ")
 
 query_embedding=model.encode(
