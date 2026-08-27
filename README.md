@@ -33,6 +33,26 @@ Answer + lecture timestamps
 
 Run the app and open the local URL shown in your terminal, usually `http://localhost:8501`.
 
+## 📸 Screenshots
+
+### 🖥️ How the UI Looks
+
+This is the main screen where you enter a question about the lectures.
+
+![Lecture RAG Assistant user interface](screenshots/1.png)
+
+### 🤖 How the Answer Is Displayed
+
+The application displays a detailed answer based on the relevant lecture content.
+
+![Generated answer from the Lecture RAG Assistant](screenshots/2.png)
+
+### 📚 How Sources Are Shown
+
+The sources section shows the lecture names and timestamps used to generate the answer.
+
+![Retrieved lecture sources and timestamps](screenshots/4.png)
+
 ## Requirements
 
 
@@ -182,6 +202,3 @@ This project is useful for learning:
 
 Created by [Harsh Bhandari](https://github.com/harshbhandari-data).
 
-## 📄 License
-
-No license has been added yet. Add a license before publishing if you want others to reuse the code legally. MIT is a common choice for learning projects.
